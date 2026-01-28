@@ -1,0 +1,138 @@
+{
+  "global": {
+    "initial_dau": 300000,
+    "cpi": 1.1,
+    "arpu_iap": 0.05,
+    "arpu_ad": 0.015,
+    "unit_cost_operational": 0.02,
+    "organic_growth_rate": 0.01,
+    "retention": {
+      "day1": 0.31,
+      "day2": 0.27,
+      "day3": 0.25,
+      "day7": 0.22,
+      "day14": 0.15,
+      "day30": 0.1,
+      "day60": 0.07
+    }
+  },
+  "regional": {
+    "JP": {
+      "initial_dau": 0,
+      "cpi": 2.0,
+      "arpu_iap": 0.01,
+      "arpu_ad": 0.005,
+      "unit_cost_operational": 0.01901,
+      "organic_growth_rate": 0.01,
+      "retention": {
+        "day1": 0.50,
+        "day2": 0.40,
+        "day3": 0.35,
+        "day7": 0.28,
+        "day14": 0.22,
+        "day30": 0.16,
+        "day60": 0.10
+      }
+    },
+    "US": {
+      "initial_dau": 0,
+      "cpi": 2.0,
+      "arpu_iap": 0.01,
+      "arpu_ad": 0.005,
+      "unit_cost_operational": 0.01901,
+      "organic_growth_rate": 0.01,
+      "retention": {
+        "day1": 0.50,
+        "day2": 0.40,
+        "day3": 0.35,
+        "day7": 0.28,
+        "day14": 0.22,
+        "day30": 0.16,
+        "day60": 0.10
+      }
+    },
+    "EMEA": {
+      "initial_dau": 0,
+      "cpi": 2.0,
+      "arpu_iap": 0.01,
+      "arpu_ad": 0.005,
+      "unit_cost_operational": 0.01901,
+      "organic_growth_rate": 0.01,
+      "retention": {
+        "day1": 0.50,
+        "day2": 0.40,
+        "day3": 0.35,
+        "day7": 0.28,
+        "day14": 0.22,
+        "day30": 0.16,
+        "day60": 0.10
+      }
+    },
+    "LATAM": {
+      "initial_dau": 0,
+      "cpi": 2.0,
+      "arpu_iap": 0.01,
+      "arpu_ad": 0.005,
+      "unit_cost_operational": 0.01901,
+      "organic_growth_rate": 0.01,
+      "retention": {
+        "day1": 0.50,
+        "day2": 0.40,
+        "day3": 0.35,
+        "day7": 0.28,
+        "day14": 0.22,
+        "day30": 0.16,
+        "day60": 0.10
+      }
+    },
+    "CN": {
+      "initial_dau": 0,
+      "cpi": 2.0,
+      "arpu_iap": 0.01,
+      "arpu_ad": 0.005,
+      "unit_cost_operational": 0.01901,
+      "organic_growth_rate": 0.01,
+      "retention": {
+        "day1": 0.50,
+        "day2": 0.40,
+        "day3": 0.35,
+        "day7": 0.28,
+        "day14": 0.22,
+        "day30": 0.16,
+        "day60": 0.10
+      }
+    },
+    "OTHER": {
+      "initial_dau": 0,
+      "cpi": 2.0,
+      "arpu_iap": 0.01,
+      "arpu_ad": 0.005,
+      "unit_cost_operational": 0.01901,
+      "organic_growth_rate": 0.01,
+      "retention": {
+        "day1": 0.50,
+        "day2": 0.40,
+        "day3": 0.35,
+        "day7": 0.28,
+        "day14": 0.22,
+        "day30": 0.16,
+        "day60": 0.10
+      }
+    }
+  },
+  "budget": {
+    "base_ratio": 100.0,
+    "region_distribution": {
+      "JP": 20.0,
+      "US": 20.0,
+      "EMEA": 15.0,
+      "LATAM": 15.0,
+      "CN": 15.0,
+      "OTHER": 15.0
+    }
+  },
+  "simulation": {
+    "simulation_days": 180,
+    "start_date": null
+  }
+}

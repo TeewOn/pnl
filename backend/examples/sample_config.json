@@ -1,0 +1,67 @@
+{
+  "simulation_days": 180,
+  "start_date": "2025-02-01",
+  
+  "budget": {
+    "base_ratio": 1.0,
+    "additional_by_month": {
+      "2": 5000,
+      "3": 3000
+    },
+    "region_distribution": {
+      "JP": 0.4,
+      "US": 0.3,
+      "EMEA": 0.2,
+      "OTHER": 0.1
+    }
+  },
+  
+  "defaults": {
+    "initial_dau": 1000,
+    "cpi": 2.0,
+    "arpu_iap": 0.01,
+    "arpu_ad": 0.005,
+    "unit_cost_operational": 0.00601,
+    "organic_growth_rate": 0.01,
+    "retention": {
+      "day1": 0.50,
+      "day2": 0.40,
+      "day3": 0.35,
+      "day7": 0.28,
+      "day14": 0.22,
+      "day30": 0.16,
+      "day60": 0.10
+    }
+  },
+  
+  "regions": {
+    "JP": {
+      "initial_dau": 5000,
+      "cpi": 3.5,
+      "retention": {
+        "day1": 0.55,
+        "day7": 0.30
+      }
+    },
+    "US": {
+      "initial_dau": 3000,
+      "cpi": 2.8
+    },
+    "EMEA": {
+      "initial_dau": 2000
+    },
+    "OTHER": {
+      "initial_dau": 1000
+    }
+  },
+  
+  "monthly_overrides": {},
+  
+  "global_fixed_cost": 1000.0,
+  
+  "output_options": {
+    "include_daily_details": true,
+    "include_region_breakdown": true,
+    "aggregate_by": "day"
+  }
+}
